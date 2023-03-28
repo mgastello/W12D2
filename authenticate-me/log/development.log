@@ -984,3 +984,17 @@ NameError - undefined local variable or method `banana' for #<Api::SessionsContr
 Completed 500 Internal Server Error in 18ms (Views: 1.9ms | ActiveRecord: 0.0ms | Allocations: 4600)
 
 
+Started GET "/" for ::1 at 2023-03-28 15:13:44 -0400
+  [1m[36mActiveRecord::SchemaMigration Pluck (0.8ms)[0m  [1m[34mSELECT "schema_migrations"."version" FROM "schema_migrations" ORDER BY "schema_migrations"."version" ASC[0m
+Processing by Rails::WelcomeController#index as HTML
+  Rendering /Users/michaelgastello/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb
+  Rendered /Users/michaelgastello/.rbenv/versions/3.1.1/lib/ruby/gems/3.1.0/gems/railties-7.0.4.3/lib/rails/templates/rails/welcome/index.html.erb (Duration: 0.7ms | Allocations: 526)
+Completed 200 OK in 4ms (Views: 2.5ms | ActiveRecord: 0.0ms | Allocations: 2805)
+
+
+Started POST "/api/test" for ::1 at 2023-03-28 15:13:51 -0400
+Processing by ApplicationController#test as */*
+Can't verify CSRF token authenticity.
+Completed 422 Unprocessable Entity in 1ms (Views: 0.2ms | ActiveRecord: 0.0ms | Allocations: 912)
+
+
