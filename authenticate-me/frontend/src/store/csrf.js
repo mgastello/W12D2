@@ -25,4 +25,4 @@ export function storeCSRFToken(res) {
     if (csrfToken) sessionStorage.setItem('X-CSRF-Token', csrfToken)
 }
 
-export default csrfFetch
+export default csrfFetch;
