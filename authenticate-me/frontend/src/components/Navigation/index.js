@@ -22,7 +22,7 @@ function Navigation() {
     }
 
     return (
-        <ul>
+        <ul className="nav">
             <li>
                 <NavLink exact to="/">Home</NavLink>
                 {sessionLinks}
